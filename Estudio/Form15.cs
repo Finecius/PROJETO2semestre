@@ -1,12 +1,6 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Estudio
@@ -16,7 +10,7 @@ namespace Estudio
         public Form15()
         {
             InitializeComponent();
-           
+
             WindowState = FormWindowState.Maximized;
 
             Modalidade con_mod = new Modalidade();
@@ -126,6 +120,11 @@ namespace Estudio
 
 
             DAOConexao.con.Close();
+
+        }
+
+        private void Form15_Load(object sender, EventArgs e)
+        {
 
         }
     }

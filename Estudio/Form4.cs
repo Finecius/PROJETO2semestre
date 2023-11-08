@@ -41,10 +41,15 @@ namespace Estudio
         private void button1_Click(object sender, EventArgs e)
         {
             Aluno a = new Aluno(maskedTextBox1.Text);
-            if (a.excluirAluno())
-                MessageBox.Show("Aluno excluído");
+            if (a.consultarAluno())
+            {
+                if (a.excluirAluno())
+                    MessageBox.Show("Aluno excluído");
+                else
+                    MessageBox.Show("Erro na exclusão");
+            }
             else
-                MessageBox.Show("Erro na exclusão");
+                MessageBox.Show("Erro na verificação");
         }
     }
 }

@@ -26,7 +26,7 @@ namespace Estudio
             MySqlDataReader r = conMod.consultartodasModal();
             while (r.Read())
             {
-                dataGridView1.Rows.Add(r["descricaoModalidade"].ToString());
+                listBox1.Items.Add(r["descricaoModalidade"].ToString());
             }
             DAOConexao.con.Close();
 
@@ -34,7 +34,7 @@ namespace Estudio
             MySqlDataReader h = conAlu.consultartodosAlunoCompleto();
             while (h.Read())
             {
-                dataGridView2.Rows.Add(h["nomeAluno"].ToString());
+                listBox2.Items.Add(h["nomeAluno"].ToString());
             }
             DAOConexao.con.Close();
         }
@@ -48,8 +48,8 @@ namespace Estudio
         {
              
 
-            String nomeModal = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
-            String nomeAluno = dataGridView2.SelectedRows[0].Cells[0].Value.ToString();
+            String nomeModal = listBox1.SelectedItem.ToString();
+            String nomeAluno = listBox2.SelectedItem.ToString();
 
             int  idTurma, idModal;
             String idAluno;
@@ -72,7 +72,7 @@ namespace Estudio
 
             DAOConexao.con.Close();
 
-            Turma turma = new Turma(listaModalidade[dataGridView1.CurrentCell.RowIndex].Id);
+            Turma turma = new Turma(listaModalidade[listBox1.SelectedIndex].Id);
             
             MySqlDataReader h = turma.consultarTurma();
             while (h.Read())
@@ -106,7 +106,7 @@ namespace Estudio
 
             DAOConexao.con.Close();
 
-            TurmaAluno cad = new TurmaAluno(listaTurma[listaTurma.IndexOf(turma)].IdTurma, listaAluno[dataGridView2.CurrentCell.RowIndex].getCPF()); 
+            TurmaAluno cad = new TurmaAluno(listaTurma[listaTurma.IndexOf(turma)].IdTurma, listaAluno[listBox2.SelectedIndex].getCPF(),nomeAluno); 
 
             if (cad.cadastrarAlunoTurma())
             {

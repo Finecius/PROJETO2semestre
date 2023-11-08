@@ -51,6 +51,10 @@ namespace Estudio
                 cadastrarToolStripMenuItem1.Enabled = false;
                 excluirToolStripMenuItem.Enabled = false;
                 excluirToolStripMenuItem1.Enabled = false;
+                cadastrarAlunoToolStripMenuItem.Enabled = false;
+                exlcuirAlunoToolStripMenuItem.Enabled = false;
+                cadastrarToolStripMenuItem2.Enabled = false;
+                excluirToolStripMenuItem2.Enabled = false;
 
             }
                 
@@ -138,16 +142,16 @@ namespace Estudio
 
         private void consultarAtualizarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form10 form10 = new Form10();
-            form10.MdiParent = this;
-            form10.Show();
+            Form15 form15 = new Form15();
+            form15.MdiParent = this;
+            form15.Show();
         }
 
         private void consultarAlunToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form11 form11 = new Form11();
-            form11.MdiParent = this;
-            form11.Show();
+            Form16 form16 = new Form16();
+            form16.MdiParent = this;
+            form16.Show();
         }
 
         private void cadastrarToolStripMenuItem2_Click(object sender, EventArgs e)
@@ -171,11 +175,9 @@ namespace Estudio
             form14.Show();
         }
 
-        private void aTTToolStripMenuItem_Click(object sender, EventArgs e)
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
-            Form15 form15 = new Form15();
-            form15.MdiParent = this;
-            form15.Show();
+
         }
     }
 }
