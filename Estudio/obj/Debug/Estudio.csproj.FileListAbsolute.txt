@@ -1,0 +1,110 @@
+D:\DAD(C#)\PROJETO-2°semestre\Estudio\bin\Debug\Estudio.exe.config
+D:\DAD(C#)\PROJETO-2°semestre\Estudio\bin\Debug\Estudio.exe
+D:\DAD(C#)\PROJETO-2°semestre\Estudio\bin\Debug\Estudio.pdb
+D:\DAD(C#)\PROJETO-2°semestre\Estudio\bin\Debug\MySql.Data.dll
+D:\DAD(C#)\PROJETO-2°semestre\Estudio\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\DAD(C#)\PROJETO-2°semestre\Estudio\bin\Debug\MySql.Data.xml
+D:\DAD(C#)\PROJETO-2°semestre\Estudio\obj\Debug\Estudio.csproj.AssemblyReference.cache
+D:\DAD(C#)\PROJETO-2°semestre\Estudio\obj\Debug\Estudio.Form1.resources
+D:\DAD(C#)\PROJETO-2°semestre\Estudio\obj\Debug\Estudio.Properties.Resources.resources
+D:\DAD(C#)\PROJETO-2°semestre\Estudio\obj\Debug\Estudio.csproj.GenerateResource.cache
+D:\DAD(C#)\PROJETO-2°semestre\Estudio\obj\Debug\Estudio.csproj.CoreCompileInputs.cache
+D:\DAD(C#)\PROJETO-2°semestre\Estudio\obj\Debug\Estudio.csproj.CopyComplete
+D:\DAD(C#)\PROJETO-2°semestre\Estudio\obj\Debug\Estudio.exe
+D:\DAD(C#)\PROJETO-2°semestre\Estudio\obj\Debug\Estudio.pdb
+D:\DAD(C#)\PROJETO-2°semestre\Estudio\obj\Debug\Estudio.Form2.resources
+D:\DAD(C#)\PROJETO-2°semestre\Estudio\obj\Debug\Estudio.Form3.resources
+D:\DAD(C#)\PROJETO-2°semestre\Estudio\obj\Debug\Estudio.Form4.resources
+D:\DAD(C#)\PROJETO-2°semestre\Estudio\obj\Debug\Estudio.Form5.resources
+D:\DAD(C#)\PROJETO-2°semestre\Estudio\obj\Debug\Estudio.Form6.resources
+D:\DAD\PROJETO2semestre\Estudio\bin\Debug\Estudio.exe.config
+D:\DAD\PROJETO2semestre\Estudio\bin\Debug\Estudio.exe
+D:\DAD\PROJETO2semestre\Estudio\bin\Debug\Estudio.pdb
+D:\DAD\PROJETO2semestre\Estudio\bin\Debug\MySql.Data.dll
+D:\DAD\PROJETO2semestre\Estudio\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\DAD\PROJETO2semestre\Estudio\bin\Debug\MySql.Data.xml
+D:\DAD\PROJETO2semestre\Estudio\obj\Debug\Estudio.csproj.AssemblyReference.cache
+D:\DAD\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form1.resources
+D:\DAD\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form2.resources
+D:\DAD\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form3.resources
+D:\DAD\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form4.resources
+D:\DAD\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form5.resources
+D:\DAD\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form6.resources
+D:\DAD\PROJETO2semestre\Estudio\obj\Debug\Estudio.Properties.Resources.resources
+D:\DAD\PROJETO2semestre\Estudio\obj\Debug\Estudio.csproj.GenerateResource.cache
+D:\DAD\PROJETO2semestre\Estudio\obj\Debug\Estudio.csproj.CoreCompileInputs.cache
+D:\DAD\PROJETO2semestre\Estudio\obj\Debug\Estudio.csproj.CopyComplete
+D:\DAD\PROJETO2semestre\Estudio\obj\Debug\Estudio.exe
+D:\DAD\PROJETO2semestre\Estudio\obj\Debug\Estudio.pdb
+D:\DAD\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form7.resources
+D:\DAD\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form8.resources
+D:\DAD\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form9.resources
+D:\DAD\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form10.resources
+D:\DAD\PROJETO2semestre\Estudio\bin\Debug\Estudio.exe.manifest
+D:\DAD\PROJETO2semestre\Estudio\bin\Debug\Estudio.application
+D:\DAD\PROJETO2semestre\Estudio\obj\Debug\Estudio.TrustInfo.xml
+D:\DAD\PROJETO2semestre\Estudio\obj\Debug\Estudio.exe.manifest
+D:\DAD\PROJETO2semestre\Estudio\obj\Debug\Estudio.application
+D:\DAD\PROJETO2semestre-2\Estudio\bin\Debug\Estudio.exe.config
+D:\DAD\PROJETO2semestre-2\Estudio\bin\Debug\Estudio.exe.manifest
+D:\DAD\PROJETO2semestre-2\Estudio\bin\Debug\Estudio.application
+D:\DAD\PROJETO2semestre-2\Estudio\bin\Debug\Estudio.exe
+D:\DAD\PROJETO2semestre-2\Estudio\bin\Debug\Estudio.pdb
+D:\DAD\PROJETO2semestre-2\Estudio\bin\Debug\MySql.Data.dll
+D:\DAD\PROJETO2semestre-2\Estudio\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\DAD\PROJETO2semestre-2\Estudio\bin\Debug\MySql.Data.xml
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.csproj.AssemblyReference.cache
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.Form1.resources
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.Form10.resources
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.Form2.resources
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.Form3.resources
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.Form4.resources
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.Form5.resources
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.Form6.resources
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.Form7.resources
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.Form8.resources
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.Form9.resources
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.Properties.Resources.resources
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.csproj.GenerateResource.cache
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.csproj.CoreCompileInputs.cache
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.TrustInfo.xml
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.exe.manifest
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.application
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.csproj.CopyComplete
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.exe
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.pdb
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.Form11.resources
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.Form12.resources
+D:\DAD\PROJETO2semestre-2\Estudio\obj\Debug\Estudio.Form13.resources
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\bin\Debug\Estudio.exe.config
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\bin\Debug\Estudio.exe.manifest
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\bin\Debug\Estudio.application
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\bin\Debug\Estudio.exe
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\bin\Debug\Estudio.pdb
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\bin\Debug\MySql.Data.dll
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\bin\Debug\MySql.Data.xml
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.csproj.AssemblyReference.cache
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.Form1.resources
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.Form10.resources
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.Form11.resources
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.Form12.resources
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.Form13.resources
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.Form15.resources
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.Form2.resources
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.Form3.resources
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.Form4.resources
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.Form5.resources
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.Form6.resources
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.Form7.resources
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.Form8.resources
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.Form9.resources
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.Properties.Resources.resources
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.csproj.GenerateResource.cache
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.csproj.CoreCompileInputs.cache
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.TrustInfo.xml
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.exe.manifest
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.application
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.csproj.CopyComplete
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.exe
+C:\Users\aluno\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.pdb
