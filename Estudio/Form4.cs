@@ -17,19 +17,28 @@ namespace Estudio
             InitializeComponent();
         }
 
+        string id;
+
         private void maskedTextBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            Aluno aluno = new Aluno(maskedTextBox1.Text);
+            id = maskedTextBox1.Text;
+
+            Aluno aluno = new Aluno(id);
             if (e.KeyChar == 13)
             {
                 if (aluno.consultarAluno())
                 {
-                    if (aluno.excluirAluno()){
+                    if (aluno.excluirAluno())
+                    {
                         MessageBox.Show("Aluno Excluído");
 
                     }
+                    else
+                        MessageBox.Show("Erro na exclusão");
                 }
-                
+                else
+                    MessageBox.Show("Erro na verificação");
+
             }
         }
 

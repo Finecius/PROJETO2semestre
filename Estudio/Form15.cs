@@ -94,15 +94,8 @@ namespace Estudio
             Modalidade modal = new Modalidade(a);
             MySqlDataReader r = modal.consultarModal();
 
-
-
             r.Read();
-
             int id = (int)r["idEstudio_Modalidade"];
-
-
-
-
             DAOConexao.con.Close();
 
             Turma turma = new Turma(id);
