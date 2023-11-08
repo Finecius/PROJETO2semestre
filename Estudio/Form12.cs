@@ -43,6 +43,8 @@ namespace Estudio
         {
             
         }
+        int idTurma, idModal;
+        String idAluno;
         int n;
         private void button1_Click(object sender, EventArgs e)
         {
@@ -51,8 +53,7 @@ namespace Estudio
             String nomeModal = listBox1.SelectedItem.ToString();
             String nomeAluno = listBox2.SelectedItem.ToString();
 
-            int  idTurma, idModal;
-            String idAluno;
+          
 
             Modalidade modalidade = new Modalidade(nomeModal);
             MySqlDataReader r = modalidade.consultarModal();
@@ -106,7 +107,7 @@ namespace Estudio
 
             DAOConexao.con.Close();
 
-            TurmaAluno cad = new TurmaAluno(listaTurma[listaTurma.IndexOf(turma)].IdTurma, listaAluno[listBox2.SelectedIndex].getCPF(),nomeAluno); 
+            TurmaAluno cad = new TurmaAluno(idTurma, listaAluno[listBox2.SelectedIndex].getCPF(),nomeAluno); 
 
             if (cad.cadastrarAlunoTurma())
             {
