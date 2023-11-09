@@ -45,7 +45,8 @@ namespace Estudio
         }
         int idTurma, idModal;
         String idAluno;
-        int n;
+        int nalunosmatriculadosTurma;
+        int qtde_alunos;
         private void button1_Click(object sender, EventArgs e)
         {
              
@@ -63,7 +64,7 @@ namespace Estudio
                 idModal = (int)r["idEstudio_Modalidade"];
                 string descricao = r["descricaoModalidade"].ToString();
                 float preco = (float)r["precoModalidade"];
-                int qtde_alunos = (int)r["qtdeAlunos"];
+                qtde_alunos = (int)r["qtdeAlunos"];
                 int qtde_aulas = (int)r["qtdeAulas"];
              
                 Modalidade modalidade1 = new Modalidade(idModal, descricao, preco, qtde_alunos, qtde_aulas);
@@ -73,24 +74,22 @@ namespace Estudio
 
             DAOConexao.con.Close();
 
-            Turma turma = new Turma(listaModalidade[listBox1.SelectedIndex].Id);
+            Turma turma = new Turma(idModal);
             
             MySqlDataReader h = turma.consultarTurma();
             while (h.Read())
             {
                 idTurma = (int)h["idEstudio_Turma"];
-                int idModalidade = (int)h["idModalidade"];
+                 idModal = (int)h["idModalidade"];
                 String professorTurma = h["professorTurma"].ToString();
                 String diasemanaTurma = h["diasemanaTurma"].ToString();
                 String horaTurma = h["horaTurma"].ToString();
-                int nalunosmatriculadosTurma = (int)h["nalunosmatriculadosTurma"];
+                nalunosmatriculadosTurma = (int)h["nalunosmatriculadosTurma"];
 
-                Turma turma1 = new Turma(professorTurma, diasemanaTurma, horaTurma, idModalidade, nalunosmatriculadosTurma, idTurma);
-
-                listaTurma.Add(turma1);
-                n = idModalidade;
+               
+                
             }
-
+           
             DAOConexao.con.Close();
 
             
@@ -100,21 +99,23 @@ namespace Estudio
             {
                 idAluno = i["CPFAluno"].ToString();
 
-                Aluno aluno1 = new Aluno(idAluno);
-
-                listaAluno.Add(aluno1);
+         
             }
 
             DAOConexao.con.Close();
-
-            TurmaAluno cad = new TurmaAluno(idTurma, listaAluno[listBox2.SelectedIndex].getCPF(),nomeAluno); 
-
-            if (cad.cadastrarAlunoTurma())
+            Turma turma1 = new Turma(idModal, idTurma);
+            TurmaAluno cad = new TurmaAluno(idTurma, idAluno,nomeAluno);
+            if (nalunosmatriculadosTurma < qtde_alunos && turma.aumentarAlunos())
             {
-                MessageBox.Show("Aluno cadastrado na Turma");
+                if (cad.cadastrarAlunoTurma())
+                {
+                    MessageBox.Show("Aluno cadastrado na Turma");
+                }
+                else
+                    MessageBox.Show("Erro ");
             }
             else
-                MessageBox.Show("Erro ");
+                MessageBox.Show("Máximo de alunos já atingido");
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

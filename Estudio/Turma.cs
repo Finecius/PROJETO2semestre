@@ -55,6 +55,10 @@ namespace Estudio
             this.modalidade = modalidade;
         }
 
+        public Turma(int modalidade, int idTurma) : this(modalidade)
+        {
+            this.idTurma = idTurma;
+        }
 
         public Turma()
         {
@@ -199,6 +203,29 @@ namespace Estudio
                 DAOConexao.con.Close();
             }
             return exc;
+        }
+        public bool aumentarAlunos()
+        {
+            bool result = false;
+
+            try
+            {
+                DAOConexao.con.Open();
+                MySqlCommand aumentar = new MySqlCommand("update Estudio_Turma  set nalunosmatriculadosTurma = nalunosmatriculadosTurma + 1 where idEstudio_Turma = "+idTurma+" ;");
+                aumentar.ExecuteNonQuery();
+                result = true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+            finally
+            {
+                DAOConexao.con.Close();
+            }
+
+
+            return result;
         }
     }
 }

@@ -174,3 +174,36 @@ C:\Users\biel1\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.appl
 C:\Users\biel1\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.csproj.CopyComplete
 C:\Users\biel1\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.exe
 C:\Users\biel1\3D Objects\PROJETO2semestre-master\Estudio\obj\Debug\Estudio.pdb
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\bin\Debug\Estudio.exe.config
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\bin\Debug\Estudio.exe.manifest
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\bin\Debug\Estudio.application
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\bin\Debug\Estudio.exe
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\bin\Debug\Estudio.pdb
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\bin\Debug\MySql.Data.dll
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\bin\Debug\MySql.Data.xml
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.csproj.AssemblyReference.cache
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form1.resources
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form10.resources
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form11.resources
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form12.resources
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form13.resources
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form15.resources
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form16.resources
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form2.resources
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form3.resources
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form4.resources
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form5.resources
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form6.resources
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form7.resources
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form8.resources
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form9.resources
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.Properties.Resources.resources
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.csproj.GenerateResource.cache
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.csproj.CoreCompileInputs.cache
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.TrustInfo.xml
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.exe.manifest
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.application
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.csproj.CopyComplete
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.exe
+C:\Users\vinic\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.pdb

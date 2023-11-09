@@ -60,8 +60,9 @@ namespace Estudio
             try
             {
                 DAOConexao.con.Open();
-                MySqlCommand insere = new MySqlCommand("insert into Turma_Aluno (codigoTurma, codigoAluno, nomeAluno) values (" + idTurma + ", " + idAluno+", "+nomeAluno+");");
+                MySqlCommand insere = new MySqlCommand("insert into Turma_Aluno (codigoTurma, codigoAluno, nomeAluno) values (" + idTurma + ", '" + idAluno+"', '"+nomeAluno+"');");
                 insere.ExecuteNonQuery();
+             
                 resultado = true;
 
             }
