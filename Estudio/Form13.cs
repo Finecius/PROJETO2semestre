@@ -24,7 +24,7 @@ namespace Estudio
 
             MySqlDataReader r = con_mod.consultartodasModal();
             while (r.Read())
-                listBox1.Items.Add(r["descricaoModalidade"].ToString());
+                comboBox1.Items.Add(r["descricaoModalidade"].ToString());
             DAOConexao.con.Close();
         }
 

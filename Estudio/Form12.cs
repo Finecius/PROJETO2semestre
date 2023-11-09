@@ -98,16 +98,16 @@ namespace Estudio
             while (i.Read())
             {
                 idAluno = i["CPFAluno"].ToString();
-
+               
          
             }
 
             DAOConexao.con.Close();
             Turma turma1 = new Turma(idModal, idTurma);
             TurmaAluno cad = new TurmaAluno(idTurma, idAluno,nomeAluno);
-            if (nalunosmatriculadosTurma < qtde_alunos && turma.aumentarAlunos())
+            if (nalunosmatriculadosTurma < qtde_alunos)
             {
-                if (cad.cadastrarAlunoTurma())
+                if (cad.cadastrarAlunoTurma() && turma1.aumentarAlunos())
                 {
                     MessageBox.Show("Aluno cadastrado na Turma");
                 }

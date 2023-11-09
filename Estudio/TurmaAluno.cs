@@ -60,7 +60,7 @@ namespace Estudio
             try
             {
                 DAOConexao.con.Open();
-                MySqlCommand insere = new MySqlCommand("insert into Turma_Aluno (codigoTurma, codigoAluno, nomeAluno) values (" + idTurma + ", '" + idAluno+"', '"+nomeAluno+"');");
+                MySqlCommand insere = new MySqlCommand("insert into Turma_Aluno (codigoTurma, codigoAluno, nomeAluno) values (" + idTurma + ", '" + idAluno+"', '"+nomeAluno+"');",DAOConexao.con);
                 insere.ExecuteNonQuery();
              
                 resultado = true;
@@ -84,7 +84,7 @@ namespace Estudio
             try
             {
                 DAOConexao.con.Open();
-                MySqlCommand insere = new MySqlCommand("select * from Turma_Aluno where codigoTurma = '"+idTurma+"';");
+                MySqlCommand insere = new MySqlCommand("select * from Turma_Aluno where codigoTurma = '"+idTurma+"';",DAOConexao.con);
                 result = insere.ExecuteReader();
                 
 
