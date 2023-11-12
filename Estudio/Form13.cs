@@ -116,7 +116,7 @@ namespace Estudio
             DAOConexao.con.Close();
             TurmaAluno TA = new TurmaAluno(idTurma,nome);
 
-            if (TA.excluirAlunos())
+            if (TA.excluirAlunos() && TA.diminuirAlunos())
             {
                 MessageBox.Show("Aluno excluido da turma!");
             }

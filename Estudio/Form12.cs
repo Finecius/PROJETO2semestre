@@ -103,11 +103,11 @@ namespace Estudio
             }
 
             DAOConexao.con.Close();
-            Turma turma1 = new Turma(idModal, idTurma);
+            
             TurmaAluno cad = new TurmaAluno(idTurma, idAluno,nomeAluno);
             if (nalunosmatriculadosTurma < qtde_alunos)
             {
-                if (cad.cadastrarAlunoTurma() && turma1.aumentarAlunos())
+                if (cad.cadastrarAlunoTurma() && cad.aumentarAlunos())
                 {
                     MessageBox.Show("Aluno cadastrado na Turma");
                 }
