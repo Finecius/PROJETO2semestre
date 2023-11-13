@@ -240,3 +240,4 @@ C:\Users\aluno\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.application
 C:\Users\aluno\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.csproj.CopyComplete
 C:\Users\aluno\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.exe
 C:\Users\aluno\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.pdb
+C:\Users\aluno\Downloads\PROJETO2semestre\Estudio\obj\Debug\Estudio.Form14.resources

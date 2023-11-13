@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Estudio.exe" size="81408">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Estudio.exe" size="83968">
       <assemblyIdentity name="Estudio" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>0C/bZKsT2/wMXOjOHJTLRsy7RqGV9Rnz85zTrjhxTk8=</dsig:DigestValue>
+        <dsig:DigestValue>HxfACnB2QpYxJqSuHuSxPiVlyNyLx1PEPtmSvBA1hXw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

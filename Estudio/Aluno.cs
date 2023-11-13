@@ -290,7 +290,7 @@ namespace Estudio
             try
             {
                 DAOConexao.con.Open();
-                MySqlCommand exclui = new MySqlCommand("update Estudio_Aluno set ativa = 0 where CPFAluno = '" + CPF + "';", DAOConexao.con);
+                MySqlCommand exclui = new MySqlCommand("update Estudio_Aluno set ativo = 0 where CPFAluno = '" + CPF + "';", DAOConexao.con);
                 exclui.ExecuteNonQuery();
                 exc = true;
             }catch(Exception ex)
