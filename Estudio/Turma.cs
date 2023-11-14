@@ -37,10 +37,11 @@ namespace Estudio
             this.qtdAl = qtdAl;
         }
 
-        public Turma(int modalidade, string dia_da_semana)
+        public Turma(int modalidade, string dia_semana, string hora)
         {
             this.modalidade = modalidade;
-            this.dia_semana = dia_da_semana;
+            this.dia_semana = dia_semana;
+            this.hora = hora;
             
         }
 
@@ -134,7 +135,7 @@ namespace Estudio
                 Modalidade modalidade = new Modalidade();
                 
                 DAOConexao.con.Open();
-                MySqlCommand exclui = new MySqlCommand("update Estudio_Turma t inner join Modalidade m on m.idEstudio_Modalidade  = t.idModalidade AND t.diasemanaTurma = '" +dia_semana+ "' AND t.horaTurma = '" +hora+ "' set t.ativa = 0;", DAOConexao.con);
+                MySqlCommand exclui = new MySqlCommand("update Estudio_Turma t inner join Modalidade m on m.idEstudio_Modalidade  = "+ modalidade +" AND t.diasemanaTurma = '" +dia_semana+ "' AND t.horaTurma = '" +hora+ "' set t.ativa = 0;", DAOConexao.con);
                 exclui.ExecuteNonQuery();
                 exc = true;
             }

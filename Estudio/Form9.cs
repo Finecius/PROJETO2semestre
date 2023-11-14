@@ -40,15 +40,24 @@ namespace Estudio
 
         }
 
+        int id;
         private void button1_Click(object sender, EventArgs e)
         {
             String modal = (comboBox1.SelectedItem.ToString());
             String dia = comboBox2.SelectedItem.ToString();
             String hora = comboBox3.SelectedItem.ToString();
 
-            Turma turma = new Turma(dia, hora);
+           
             Modalidade modalidade = new Modalidade(modal);
+            MySqlDataReader r = modalidade.consultarModal();
 
+            while (r.Read())
+            {
+                id = (int)r["idEstudio_Modalidade"]; 
+            }
+            DAOConexao.con.Close(); 
+
+            Turma turma = new Turma(id ,dia, hora);
             if (turma.excluirTurma())
                 MessageBox.Show("Turma excluída com sucesso");
             else

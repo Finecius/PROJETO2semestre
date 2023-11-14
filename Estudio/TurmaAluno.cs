@@ -125,7 +125,7 @@ namespace Estudio
             try
             {
                 DAOConexao.con.Open();
-                MySqlCommand aumentar = new MySqlCommand("update Estudio_Turma set nalunosmatriculadosTurma = nalunosmatriculadosTurma + 1 where idEstudio_Turma = " + idTurma + " ;");
+                MySqlCommand aumentar = new MySqlCommand("update Estudio_Turma set nalunosmatriculadosTurma = nalunosmatriculadosTurma + 1 where idEstudio_Turma = " + idTurma + " ;", DAOConexao.con);
                 aumentar.ExecuteNonQuery();
                 result = true;
             }
@@ -148,7 +148,7 @@ namespace Estudio
             try
             {
                 DAOConexao.con.Open();
-                MySqlCommand aumentar = new MySqlCommand("update Estudio_Turma  set nalunosmatriculadosTurma = nalunosmatriculadosTurma - 1 where idEstudio_Turma = " + idTurma + " ;");
+                MySqlCommand aumentar = new MySqlCommand("update Estudio_Turma  set nalunosmatriculadosTurma = nalunosmatriculadosTurma - 1 where idEstudio_Turma = " + idTurma + " ;", DAOConexao.con);
                 aumentar.ExecuteNonQuery();
                 result = true;
             }

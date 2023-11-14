@@ -140,7 +140,7 @@ namespace Estudio
                 DAOConexao.con.Open();
                 
                // Console.WriteLine("update Modalidade set  descricaoModalidade= '" + descricao + "', precoModalidade = '" + preco + "', qtdeAlunos = '" + qtde_alunos + "', qtdeAulas = '" + qtde_aulas+ "'");
-                MySqlCommand atualiza = new MySqlCommand("update Modalidade set  descricaoModalidade= '" + descricao + "', precoModalidade = '" + preco + "', qtdeAlunos = '" + qtde_alunos + "', qtdeAulas = '" + qtde_aulas + "' where idEstudio_Modalidade = '"+id+"'", DAOConexao.con);
+                MySqlCommand atualiza = new MySqlCommand("update Modalidade set  descricaoModalidade= '" + descricao + "', precoModalidade = '" + preco + "', qtdeAlunos = '" + qtde_alunos + "', qtdeAulas = '" + qtde_aulas + "', set ativa = 1 where idEstudio_Modalidade = '"+id+"'", DAOConexao.con);
                 atualiza.ExecuteNonQuery();
                 exc = true;
             }

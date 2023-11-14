@@ -51,8 +51,8 @@ namespace Estudio
                 cadastrarToolStripMenuItem1.Enabled = false;
                 excluirToolStripMenuItem.Enabled = false;
                 excluirToolStripMenuItem1.Enabled = false;
-                cadastrarAlunoToolStripMenuItem.Enabled = false;
-                exlcuirAlunoToolStripMenuItem.Enabled = false;
+                
+                
                 cadastrarToolStripMenuItem2.Enabled = false;
                 excluirToolStripMenuItem2.Enabled = false;
 
